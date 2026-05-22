@@ -1,0 +1,5 @@
+﻿model,variable,unit,mean_bias,rmse,correlation,asos_mean,model_mean,lat_size,lon_size,total_grid_cells,land_grid_cells,abs_bias,rank_abs_bias,rank_rmse,rank_correlation,total_rank_score,overall_rank
+MPI-ESM1-2-LR,tas,degC,-0.1465,2.2037,0.971,14.061,13.9145,3,4,12,3,0.1465,1,1,1,3,1
+MPI-ESM1-2-HR,tas,degC,-0.3983,2.5605,0.9626,14.061,13.6627,7,8,56,12,0.3983,2,2,2,6,2
+CanESM5,tas,degC,0.7057,2.7349,0.9547,14.061,14.7668,2,2,4,1,0.7057,3,3,3,9,3
+ACCESS-CM2,tas,degC,-1.7681,4.3827,0.9304,14.061,12.2929,5,4,20,6,1.7681,4,4,4,12,4

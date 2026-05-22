@@ -1,0 +1,12 @@
+pandas
+numpy
+xarray
+netCDF4
+matplotlib
+dask
+regionmask
+geopandas
+shapely
+pyogrio
+streamlit
+plotly

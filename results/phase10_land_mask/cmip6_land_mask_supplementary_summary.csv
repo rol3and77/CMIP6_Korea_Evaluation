@@ -1,0 +1,9 @@
+model,variable,box_mean,korea_land_mean,difference_land_minus_box,unit,lat_size,lon_size,total_grid_cells,south_korea_land_grid_cells,land_grid_ratio,reliability
+MPI-ESM1-2-LR,tas,13.9145,12.7265,-1.188,degC,3,4,12,3,0.25,very_limited
+MPI-ESM1-2-LR,pr,3.1743,3.1227,-0.0516,mm/day,3,4,12,3,0.25,very_limited
+MPI-ESM1-2-HR,tas,13.6627,11.5312,-2.1314,degC,7,8,56,12,0.2143,supplementary_usable
+MPI-ESM1-2-HR,pr,3.2175,3.2957,0.0782,mm/day,7,8,56,12,0.2143,supplementary_usable
+ACCESS-CM2,tas,12.2929,11.372,-0.9208,degC,5,4,20,6,0.3,limited_supplementary
+ACCESS-CM2,pr,3.121,2.9099,-0.211,mm/day,5,4,20,6,0.3,limited_supplementary
+CanESM5,tas,14.7668,14.5676,-0.1991,degC,2,2,4,1,0.25,reference_only_not_recommended
+CanESM5,pr,2.87,2.8014,-0.0686,mm/day,2,2,4,1,0.25,reference_only_not_recommended

@@ -1,0 +1,7 @@
+model,variable,unit,lat_size,lon_size,mean_bias_CMIP6_minus_ERA5,rmse,correlation_area_mean_time_series
+MPI-ESM1-2-LR,tas,degC,3,4,0.2833,2.2294,0.9815
+MPI-ESM1-2-LR,pr,mm/day,3,4,-0.2063,3.077,0.3921
+ACCESS-CM2,tas,degC,5,4,-1.8805,3.6269,0.9614
+ACCESS-CM2,pr,mm/day,5,4,-0.408,3.597,0.3947
+CanESM5,tas,degC,2,2,0.9095,2.4408,0.9704
+CanESM5,pr,mm/day,2,2,-0.4726,3.4287,0.3778

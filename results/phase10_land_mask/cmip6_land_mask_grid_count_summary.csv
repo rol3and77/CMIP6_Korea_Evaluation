@@ -1,0 +1,5 @@
+model,lat_size,lon_size,total_grid_cells,south_korea_land_grid_cells,land_grid_ratio,interpretation
+MPI-ESM1-2-LR,3,4,12,3,0.25,limited_use_with_caution
+MPI-ESM1-2-HR,7,8,56,12,0.2143,usable_as_supplementary_analysis
+ACCESS-CM2,5,4,20,6,0.3,usable_as_supplementary_analysis
+CanESM5,2,2,4,1,0.25,very_limited_not_recommended_for_main_analysis

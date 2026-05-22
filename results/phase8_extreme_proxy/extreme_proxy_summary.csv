@@ -1,0 +1,13 @@
+dataset,metric,value,unit
+ERA5,JJA_mean_temperature,23.1453,degC
+ERA5,JJA_mean_precipitation,6.2148,mm/day
+CMIP6_MPI_ESM1_2_LR,JJA_mean_temperature,22.8501,degC
+CMIP6_MPI_ESM1_2_LR,JJA_mean_precipitation,4.5015,mm/day
+CMIP6_minus_ERA5,JJA_temperature_bias,-0.2952,degC
+CMIP6_minus_ERA5,JJA_precipitation_bias,-1.7133,mm/day
+ERA5,mean_annual_max_monthly_temperature,25.2992,degC
+ERA5,mean_annual_max_monthly_precipitation,8.4687,mm/day
+CMIP6_MPI_ESM1_2_LR,mean_annual_max_monthly_temperature,25.0993,degC
+CMIP6_MPI_ESM1_2_LR,mean_annual_max_monthly_precipitation,6.8933,mm/day
+CMIP6_minus_ERA5,mean_bias_annual_max_monthly_temperature,-0.1999,degC
+CMIP6_minus_ERA5,mean_bias_annual_max_monthly_precipitation,-1.5754,mm/day

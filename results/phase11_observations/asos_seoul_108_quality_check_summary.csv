@@ -1,0 +1,4 @@
+﻿dataset,variable,unit,time_size,time_first,time_last,missing_count,min,mean,max
+ASOS_Seoul_108,tas,degC,240,1995-01-01,2014-12-01,0,-7.2,12.7533,27.7
+ASOS_Seoul_108,pr,mm/day,240,1995-01-01,2014-12-01,0,0.0276,4.1758,39.929
+ASOS_Seoul_108,pr_monthly_mm,mm/month,240,1995-01-01,2014-12-01,0,0.8,128.0592,1237.8

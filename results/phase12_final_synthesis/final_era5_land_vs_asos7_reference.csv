@@ -1,0 +1,3 @@
+﻿variable,unit,mean_bias,rmse,correlation,asos_7stations_mean,era5_land_mean,comparison
+tas,degC,-1.7608,1.8695,0.9993,14.061,12.3003,ERA5_Korea_land_minus_ASOS_7stations_mean
+pr,mm/day,-0.4843,1.2152,0.9719,3.9088,3.4245,ERA5_Korea_land_minus_ASOS_7stations_mean

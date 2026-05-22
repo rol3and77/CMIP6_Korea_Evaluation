@@ -1,0 +1,5 @@
+﻿model,variable,unit,mean_bias,rmse,correlation,asos_mean,model_mean,lat_size,lon_size,total_grid_cells,land_grid_cells,abs_bias,rank_abs_bias,rank_rmse,rank_correlation,total_rank_score,overall_rank
+MPI-ESM1-2-HR,pr,mm/day,-0.6913,3.5774,0.4091,3.9088,3.2175,7,8,56,12,0.6913,1,1,1,3,1
+ACCESS-CM2,pr,mm/day,-0.7879,3.6501,0.3902,3.9088,3.121,5,4,20,6,0.7879,3,2,2,7,2
+MPI-ESM1-2-LR,pr,mm/day,-0.7345,3.6641,0.3728,3.9088,3.1743,3,4,12,3,0.7345,2,3,4,9,3
+CanESM5,pr,mm/day,-1.0388,3.749,0.3773,3.9088,2.87,2,2,4,1,1.0388,4,4,3,11,4

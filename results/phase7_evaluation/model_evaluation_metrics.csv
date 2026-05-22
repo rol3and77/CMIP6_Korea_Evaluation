@@ -1,0 +1,3 @@
+variable,unit,mean_bias_CMIP6_minus_ERA5,rmse,correlation_area_mean_time_series
+tas,degC,0.2833,2.2294,0.9815
+pr,mm/day,-0.2063,3.077,0.3921
