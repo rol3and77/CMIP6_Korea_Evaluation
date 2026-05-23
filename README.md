@@ -117,3 +117,9 @@ streamlit run app.py
 ## 10. 자료 관련 주의사항
 
 ERA5, CMIP6, ASOS 원자료와 NetCDF 파일은 용량 문제와 재현성을 고려하여 저장소에 포함하지 않았다. 본 저장소에는 분석 코드, 핵심 결과표, 그림, 문서, 대시보드 파일만 포함한다.
+
+## 대시보드 링크
+
+본 프로젝트의 주요 결과는 Streamlit 대시보드에서 확인할 수 있다.
+
+https://cmip6koreaevaluation-jdypjbvxwzjtyubokrdmjy.streamlit.app/
