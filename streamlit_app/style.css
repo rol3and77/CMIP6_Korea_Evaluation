@@ -1,17 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 :root {
-    --primary: #6C47FF;
-    --navy: #0B1020;
-    --ink: #191919;
-    --slate: #667085;
-    --surface: #F7F7F5;
-    --hairline: #E8E7E3;
-    --yellow: #FFE45C;
-    --peach: #FFE9D6;
-    --mint: #DFF8EA;
-    --lavender: #EDE7FF;
-    --sky: #E2F2FF;
+    --primary: #5B5F97;
+    --primary-soft: #ECECFA;
+    --navy: #111827;
+    --navy-soft: #1F2937;
+    --ink: #202124;
+    --charcoal: #303033;
+    --slate: #6B7280;
+    --muted: #8A8F98;
+    --surface: #F4F2EE;
+    --surface-card: #FBFAF7;
+    --surface-soft: #EFEEE9;
+    --hairline: #DDDAD2;
+    --hairline-soft: #E9E6DE;
+    --beige: #EFE6D3;
+    --sand: #F4ECDC;
+    --sage: #E3ECE4;
+    --bluegray: #E5EAF0;
+    --lavender: #E9E7F5;
+    --peach: #F0E2D8;
 }
 
 html, body, [class*="css"] {
@@ -30,61 +38,70 @@ html, body, [class*="css"] {
 }
 
 section[data-testid="stSidebar"] {
-    background: #ffffff;
+    background: #F9F8F5;
     border-right: 1px solid var(--hairline);
 }
 
+section[data-testid="stSidebar"] * {
+    color: var(--ink);
+}
+
+/* Hero */
 .hero {
     position: relative;
-    background: radial-gradient(circle at top left, #24315A 0%, var(--navy) 45%, #070A14 100%);
+    background:
+        radial-gradient(circle at top left, rgba(91, 95, 151, 0.35) 0%, transparent 38%),
+        linear-gradient(135deg, #111827 0%, #182031 48%, #0E1420 100%);
     color: white;
     border-radius: 18px;
-    padding: 56px 48px 38px 48px;
+    padding: 52px 46px 36px 46px;
     margin-bottom: 28px;
     overflow: hidden;
-    box-shadow: rgba(15, 15, 15, 0.20) 0px 24px 48px -8px;
+    box-shadow: rgba(15, 15, 15, 0.18) 0px 18px 40px -14px;
 }
 
 .hero::before {
     content: "";
     position: absolute;
-    top: 30px;
-    right: 60px;
-    width: 10px;
-    height: 10px;
-    background: #FFE45C;
+    top: 32px;
+    right: 64px;
+    width: 8px;
+    height: 8px;
+    background: #D9CBA3;
     border-radius: 999px;
     box-shadow:
-        -80px 56px 0 #FF8A65,
-        -140px -8px 0 #6C47FF,
-        -210px 84px 0 #00A389,
-        42px 92px 0 #FF4D8D,
-        -32px 138px 0 #8BD3FF;
+        -76px 54px 0 #C9AFA3,
+        -138px -6px 0 #8F8DB9,
+        -204px 78px 0 #8BA99A,
+        42px 92px 0 #B9939B,
+        -30px 134px 0 #93A8B8;
+    opacity: 0.75;
 }
 
 .hero-kicker {
     font-size: 13px;
     font-weight: 700;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: rgba(255,255,255,0.72);
+    color: rgba(255,255,255,0.64);
     margin-bottom: 12px;
 }
 
 .hero-title {
-    font-size: clamp(38px, 5vw, 70px);
-    line-height: 1.05;
-    letter-spacing: -1.7px;
+    font-size: clamp(36px, 5vw, 66px);
+    line-height: 1.06;
+    letter-spacing: -1.5px;
     font-weight: 700;
     max-width: 900px;
     margin: 0;
+    color: rgba(255,255,255,0.96);
 }
 
 .hero-subtitle {
     margin-top: 18px;
-    font-size: 17px;
+    font-size: 16.5px;
     line-height: 1.65;
-    color: rgba(255,255,255,0.74);
+    color: rgba(255,255,255,0.68);
     max-width: 780px;
 }
 
@@ -97,34 +114,36 @@ section[data-testid="stSidebar"] {
 
 .btn-primary {
     display: inline-block;
-    background: var(--primary);
+    background: #686BA5;
     color: white !important;
     padding: 10px 18px;
     border-radius: 8px;
     font-size: 14px;
     font-weight: 600;
     text-decoration: none !important;
+    box-shadow: rgba(0,0,0,0.16) 0px 4px 12px -6px;
 }
 
 .btn-secondary {
     display: inline-block;
-    color: white !important;
+    color: rgba(255,255,255,0.88) !important;
     padding: 10px 18px;
     border-radius: 8px;
-    border: 1px solid rgba(255,255,255,0.35);
+    border: 1px solid rgba(255,255,255,0.26);
     font-size: 14px;
     font-weight: 600;
     text-decoration: none !important;
 }
 
+/* Mockup card */
 .mockup-card {
-    margin-top: 34px;
-    background: white;
+    margin-top: 32px;
+    background: #FAF9F6;
     color: var(--ink);
-    border: 1px solid var(--hairline);
+    border: 1px solid rgba(255,255,255,0.7);
     border-radius: 12px;
     padding: 18px;
-    box-shadow: rgba(15, 15, 15, 0.20) 0px 24px 48px -8px;
+    box-shadow: rgba(15, 15, 15, 0.18) 0px 18px 38px -14px;
 }
 
 .mockup-header {
@@ -132,10 +151,11 @@ section[data-testid="stSidebar"] {
     justify-content: space-between;
     align-items: center;
     padding-bottom: 12px;
-    border-bottom: 1px solid var(--hairline);
+    border-bottom: 1px solid var(--hairline-soft);
     margin-bottom: 14px;
     font-size: 14px;
     font-weight: 700;
+    color: var(--charcoal);
 }
 
 .mockup-grid {
@@ -148,44 +168,66 @@ section[data-testid="stSidebar"] {
     border-radius: 10px;
     padding: 14px;
     min-height: 88px;
-    border: 1px solid rgba(0,0,0,0.04);
+    border: 1px solid rgba(0,0,0,0.035);
     font-size: 13px;
     line-height: 1.45;
+    color: #333333;
 }
 
+/* Tone down inline mockup tile colors from app.py */
+.mockup-tile[style*="#EDE7FF"] {
+    background: var(--lavender) !important;
+}
+
+.mockup-tile[style*="#DFF8EA"] {
+    background: var(--sage) !important;
+}
+
+.mockup-tile[style*="#FFE9D6"] {
+    background: var(--peach) !important;
+}
+
+.mockup-tile[style*="#E2F2FF"] {
+    background: var(--bluegray) !important;
+}
+
+/* Sections */
 .section-title {
-    font-size: 28px;
+    font-size: 27px;
     font-weight: 700;
-    letter-spacing: -0.4px;
-    margin-bottom: 4px;
+    letter-spacing: -0.35px;
+    margin: 28px 0 4px 0;
     color: var(--ink);
 }
 
 .section-sub {
     font-size: 14px;
     color: var(--slate);
-    line-height: 1.6;
+    line-height: 1.65;
     margin-bottom: 18px;
 }
 
+/* Former yellow banner -> calm beige insight card */
 .yellow-banner {
-    background: var(--yellow);
+    background: linear-gradient(135deg, var(--beige), var(--sand));
     border-radius: 12px;
     padding: 24px;
-    border: 1px solid rgba(0,0,0,0.05);
+    border: 1px solid rgba(0,0,0,0.045);
     margin: 24px 0;
+    box-shadow: rgba(15, 15, 15, 0.035) 0px 1px 2px 0px;
 }
 
 .yellow-banner h3 {
     margin: 0 0 8px 0;
-    font-size: 24px;
-    letter-spacing: -0.3px;
+    font-size: 23px;
+    letter-spacing: -0.25px;
+    color: #2F2A22;
 }
 
 .yellow-banner p {
     margin: 0;
-    color: #3F3A18;
-    line-height: 1.6;
+    color: #5A5145;
+    line-height: 1.65;
     font-size: 14px;
 }
 
@@ -193,6 +235,7 @@ section[data-testid="stSidebar"] {
     border-radius: 12px;
     padding: 20px;
     border: 1px solid rgba(0,0,0,0.04);
+    box-shadow: rgba(15, 15, 15, 0.03) 0px 1px 2px 0px;
 }
 
 .purple-badge {
@@ -206,20 +249,37 @@ section[data-testid="stSidebar"] {
     margin-bottom: 10px;
 }
 
+/* Tone down inline soft card backgrounds */
+.soft-card[style*="#EDE7FF"] {
+    background: var(--lavender) !important;
+}
+
+.soft-card[style*="#FFE9D6"] {
+    background: var(--peach) !important;
+}
+
+/* Streamlit metric cards */
 div[data-testid="stMetric"] {
-    background: white;
+    background: var(--surface-card);
     border: 1px solid var(--hairline);
     padding: 16px;
     border-radius: 12px;
+    box-shadow: rgba(15, 15, 15, 0.035) 0px 1px 2px 0px;
 }
 
 div[data-testid="stMetricValue"] {
-    font-size: 26px;
+    font-size: 25px;
     font-weight: 700;
+    color: var(--ink);
 }
 
+div[data-testid="stMetricLabel"] {
+    color: var(--slate);
+}
+
+/* Expander and data area */
 div[data-testid="stExpander"] {
-    background: white;
+    background: var(--surface-card);
     border-radius: 12px;
     border: 1px solid var(--hairline);
 }
@@ -231,9 +291,30 @@ div[data-testid="stExpander"] {
     color: var(--ink);
 }
 
+/* Plotly chart containers */
+div[data-testid="stPlotlyChart"] {
+    background: var(--surface-card);
+    border: 1px solid var(--hairline);
+    border-radius: 12px;
+    padding: 8px;
+    box-shadow: rgba(15, 15, 15, 0.03) 0px 1px 2px 0px;
+}
+
+/* Info box */
+div[data-testid="stAlert"] {
+    border-radius: 12px;
+    border: 1px solid var(--hairline);
+}
+
+/* Links */
+a {
+    color: var(--primary);
+}
+
+/* Mobile */
 @media (max-width: 768px) {
     .hero {
-        padding: 38px 26px 28px 26px;
+        padding: 36px 24px 28px 24px;
     }
 
     .mockup-grid {
@@ -241,6 +322,10 @@ div[data-testid="stExpander"] {
     }
 
     .hero-title {
-        font-size: 38px;
+        font-size: 36px;
+    }
+
+    .hero-subtitle {
+        font-size: 15.5px;
     }
 }

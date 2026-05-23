@@ -21,10 +21,10 @@ def load_css(css_file):
 load_css(STYLE_FILE)
 
 MODEL_COLORS = {
-    "MPI-ESM1-2-LR": "#6C47FF",
-    "MPI-ESM1-2-HR": "#00A389",
-    "ACCESS-CM2": "#F97316",
-    "CanESM5": "#E11D48",
+    "MPI-ESM1-2-LR": "#5B5F97",
+    "MPI-ESM1-2-HR": "#5E8C7A",
+    "ACCESS-CM2": "#B7795B",
+    "CanESM5": "#9A6070",
 }
 
 required_files = [
@@ -273,7 +273,7 @@ with e1:
             y=var_era5_monthly["ASOS_7stations_mean"],
             mode="lines+markers",
             name="ASOS 7-station mean",
-            line=dict(width=3, color="#6C47FF")
+            line=dict(width=3, color="#5B5F97")
         )
     )
     fig.add_trace(
@@ -282,7 +282,7 @@ with e1:
             y=var_era5_monthly["ERA5_Korea_land"],
             mode="lines+markers",
             name="ERA5 Korea land mean",
-            line=dict(width=3, color="#00A389")
+            line=dict(width=3, color="#5E8C7A")
         )
     )
     fig.update_layout(
@@ -310,7 +310,7 @@ with e2:
             "difference_ERA5_land_minus_ASOS": f"Difference ({unit})"
         }
     )
-    fig.update_traces(line=dict(width=3, color="#F97316"), marker=dict(size=8))
+    fig.update_traces(line=dict(width=3, color="#B7795B"), marker=dict(size=8))
     fig.add_hline(y=0, line_dash="dash", line_color="#667085")
     fig.update_xaxes(tickmode="linear", tick0=1, dtick=1)
     fig.update_layout(
