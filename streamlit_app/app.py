@@ -9,7 +9,8 @@ st.set_page_config(
     layout="wide"
 )
 
-DATA_DIR = Path("data")
+APP_DIR = Path(__file__).resolve().parent
+DATA_DIR = APP_DIR / "data"
 
 @st.cache_data
 def load_data():
